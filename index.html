@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/b522fef9ba.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        .font-bebas{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header class="bg-[#fcf2d7] px-32 py-10">
+        <nav class="flex justify-between items-center mb-10">
+            <div class="w-8/12 md:w-1/4">
+                <img src="icons/logo.png" alt="">
+            </div>
+            <div class="block md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="hidden md:block">
+                <ul>
+                    <li class="inline "><a href="#">Home</a></li>
+                    <li class="inline ml-10"><a href="#">Product</a></li>
+                    <li class="inline ml-10"><a href="#">About us</a></li>
+                    <li class="inline ml-10"><a href="#">contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="flex-col md:flex-row flex  justify-between items-center">
+            <div class="space-y-3">
+                <h1 class="tracking-wide font-bebas font-bold text-5xl"><span class="text-[#FABE4C]">Be the Penguins</span><br> of Winter</h1>
+                <p class="font-roboto text-sm text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing 
+                    and typesetting industry.</p>
+                <button class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-9 rounded-lg text-white font-medium"><i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+            </div>
+            <div>
+                <img class="mt-8 md:mt-0" src="images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- section women -->
+    <section>
+        <h1 class="mt-10 ml-10 mb-10 font-bebas text-3xl uppercase">women jacket</h1>
+        <!-- jacket container -->
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-7">
+            <!-- jacket-1 -->
+            <div class="m-10 py-5 px-7 shadow-md font-roboto">
+                <div class="bg-gray-200 p-10 rounded-3xl" >
+                    <img src="images/jacket-1.png" alt="">
+                </div>
+                <h4 class="mt-5 text-2xl font-bold">Yellow Coat Jacket</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, odit.</p>
+                <div class="mt-4 flex justify-between">
+                    <h3 class="text-4xl font-black text-[#FABE4C]">$234</h3>
+                    <button class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-9 rounded-lg text-white font-medium"><i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+                </div>
+            </div>
+            <!-- jacket-2 -->
+            <div class="m-10 py-5 px-7 shadow-md font-roboto">
+                <div class="bg-gray-200 p-10 rounded-3xl" >
+                    <img src="images/jacket-2.png" alt="">
+                </div>
+                <h4 class="mt-5 text-2xl font-bold">Ladies Jacket </h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, odit.</p>
+                <div class="mt-4 flex justify-between">
+                    <h3 class="text-4xl font-black text-[#FABE4C]">$234</h3>
+                    <button class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-9 rounded-lg text-white font-medium"><i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+                </div>
+            </div>
+            <!-- jacket-3 -->
+            <div class="m-10 py-5 px-7 shadow-md font-roboto">
+                <div class="bg-gray-200 p-10 rounded-3xl" >
+                    <img src="images/jacket-3.png" alt="">
+                </div>
+                <h4 class="mt-5 text-2xl font-bold">Woman Leather Jacket </h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, odit.</p>
+                <div class="mt-4 flex justify-between">
+                    <h3 class="text-4xl font-black text-[#FABE4C]">$234</h3>
+                    <button class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-9 rounded-lg text-white font-medium"><i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+                </div>
+            </div>
+            
+            </div>
+    </section>
+
+    <!-- section man -->
+    <section>
+        <h1 class="mt-10 ml-10 mb-10 font-bebas text-3xl uppercase">man jacket</h1>
+        <!-- jacket container -->
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-7">
+            <!-- jacket-1 -->
+            <div class="m-10 py-5 px-7 shadow-md font-roboto">
+                <div class="bg-gray-200 p-10 rounded-3xl" >
+                    <img src="images/jacket-4.png" alt="">
+                </div>
+                <h4 class="mt-5 text-2xl font-bold">Snowboard Jacket Mens</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, odit.</p>
+                <div class="mt-4 flex justify-between">
+                    <h3 class="text-4xl font-black text-[#FABE4C]">$234</h3>
+                    <button class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-9 rounded-lg text-white font-medium"><i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+                </div>
+            </div>
+            <!-- jacket-2 -->
+            <div class="m-10 py-5 px-7 shadow-md font-roboto">
+                <div class="bg-gray-200 p-10 rounded-3xl" >
+                    <img src="images/jacket-5.png" alt="">
+                </div>
+                <h4 class="mt-5 text-2xl font-bold">Man Leather Jackets</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, odit.</p>
+                <div class="mt-4 flex justify-between">
+                    <h3 class="text-4xl font-black text-[#FABE4C]">$234</h3>
+                    <button class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-9 rounded-lg text-white font-medium"><i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+                </div>
+            </div>
+            <!-- jacket-3 -->
+            <div class="m-10 py-5 px-7 shadow-md font-roboto">
+                <div class="bg-gray-200 p-10 rounded-3xl" >
+                    <img src="images/jacket-6.png" alt="">
+                </div>
+                <h4 class="mt-5 text-2xl font-bold">Man Casual Jackets</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, odit.</p>
+                <div class="mt-4 flex justify-between">
+                    <h3 class="text-4xl font-black text-[#FABE4C]">$234</h3>
+                    <button class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-9 rounded-lg text-white font-medium"><i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+                </div>
+            </div>
+            
+            </div>
+    </section>
+
+    <!-- section services -->
+    <section>
+        <!-- service container -->
+        <div class="grid-cols-1 grid md:grid-cols-2 gap-10 items-center">
+            <div class="font-roboto grid grid-cols-1">
+                <!-- card 1 -->
+                <div class="shadow-md flex gap-5 rounded-lg m-5 p-5">
+                    <div class="w-20 pt-4">
+                        <img src="icons/house.png" alt="">
+                    </div>
+                    <div class="space-y-3">
+                        <h4 class="mt-5 text-2xl font-bold">Man Casual Jackets</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, odit.</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="shadow-md flex gap-5 rounded-lg m-5 p-5">
+                    <div class="w-20 pt-4">
+                        <img src="icons/box.png" alt="">
+                    </div>
+                    <div class="space-y-3">
+                        <h4 class="mt-5 text-2xl font-bold">Man Casual Jackets</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, odit.</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="shadow-md flex gap-5 rounded-lg m-5 p-5">
+                    <div class="w-20 pt-4">
+                        <img src="icons/question.png" alt="">
+                    </div>
+                    <div class="space-y-3">
+                        <h4 class="mt-5 text-2xl font-bold">Man Casual Jackets</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, odit.</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- image -->
+            <div>
+                <img src="images/shopping.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- main -->
+    <main>
+
+    </main>
+    <!-- footer -->
+    <footer class="mt-5 bg-gray-200">
+            <h1 class="text-small py-5 text-center">&copy; All Rights Reserved, 2024</h1>
+    </footer>
+</body>
+</html>
